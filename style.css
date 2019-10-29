@@ -1,0 +1,13 @@
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 50%;
+  margin: auto;
+  height: 400px;
+}
+
+.carousel-caption {
+    font-weight: 30px;
+    font-size: 72px;
+    font-weight: bold;
+}
