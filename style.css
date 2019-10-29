@@ -10,4 +10,36 @@
     font-weight: 30px;
     font-size: 72px;
     font-weight: bold;
+    text-align: center;
+    color: 
 }
+
+body {
+  background-color: #BFBFBF
+}
+
+.container {
+  background-color: #BFBFBF
+
+  padding: 30px;
+  margin: auto;
+
+}
+
+
+.navbar-brand {
+  text-align: auto;
+  color: #D9A23D;
+}
+
+footer{
+  background-color: #D9A23D;
+  padding: 10px;
+  
+}
+
+.card {
+  padding: 30px;
+}
+
+
