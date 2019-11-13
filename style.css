@@ -6,6 +6,7 @@
   height: 400px;
 }
 
+
 .carousel-caption {
     font-weight: 30px;
     font-size: 72px;
@@ -15,14 +16,13 @@
 }
 
 body {
-  background-color: #BFBFBF
+  background-color: #BFBFBF;
 }
 
 .container {
-  background-color: #BFBFBF
-
-  padding: 30px;
+  background-color: #BFBFBF;
   margin: auto;
+  padding: 30px;
 
 }
 
@@ -38,8 +38,59 @@ footer{
   
 }
 
-.card {
-  padding: 30px;
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+
+
+.carousel-caption {
+    font-weight: 12px;
+    font-size: 12x;
+
+    text-align: center;
+    color: black;
 }
 
+
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100px;
+  font-size: 10px;
+  height: 30%;
+
+}
+
+.carousel-caption {
+    font-weight: 12px;
+    font-size: 12x;
+    font-style: none;
+    text-align: center;
+}
+
+.item.active {
+  widows: 70%;
+  font-size: 12px;
+}
+
+
+  
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
