@@ -39,19 +39,48 @@ $(document).ready(function() {
   
 var schoolList = [
 
-  "RASHI",
-  "MAB 458",
+
+  // IQ
+  "MAB",
+  "RASSHIE 458",
   "ESMA 457",
   "HBLS 320" 
+
+
+
+
+  //EDR
+
+
+  
 
    ];
 
 
+   
+
+
    var place = [
      "1st Place IQ",
-     "2nd Place",
-     "3rd Place",
-     "4th Place,"
+     "2nd Place IQ",
+     "3rd Place IQ",
+     "4th Place IQ",
+     "5th Place IQ",
+     "6th Place IQ",
+     "7th Place IQ",
+     "8th Place IQ",
+     "9th Place IQ",
+
+     "1st Place EDR",
+     "2nd Place EDR",
+     "3rd Place EDR",
+     "4th Place EDR",
+     "5th Place EDR",
+     "6th Place EDR",
+     "7th Place EDR",
+     "8th Place EDR",
+     "9th Place EDR"
+
    ]
 
 
@@ -61,6 +90,8 @@ var schoolList = [
   for (var i = 0, x =0 ; i < schoolList.length, x < place.length; i++, x++) {
 
     console.log(place[x], schoolList[i]);
+    
+
     $(
       '<div class="item"><img src="red.jpg"> <div class ="carousel-caption">' + place[x] + "<br>" +
         schoolList[i] +
