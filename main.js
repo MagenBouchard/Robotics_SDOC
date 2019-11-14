@@ -41,18 +41,22 @@ var schoolList = [
 
 
   // IQ
-  "MAB",
-  "RASSHIE 458",
+  "MABA 560",
+  "MAAB 547",
+  "RASHIE 458",
   "ESMA 457",
-  "HBLS 320" 
-
+  "HBLS 320",
+  "BGBG 319",
+  "GEGE 308",
 
 
 
   //EDR
 
-
-  
+  "GDGD 587",
+  "JYTA 578",
+  "GFGF 560",
+  "DEDE 420"  
 
    ];
 
@@ -93,9 +97,9 @@ var schoolList = [
     
 
     $(
-      '<div class="item"><img src="red.jpg"> <div class ="carousel-caption">' + place[x] + "<br>" +
+      '<div class="item"><img src="red.jpg"> <div class ="carousel-caption">' + place[x] + "<br><hr><br>" +
         schoolList[i] +
-        "</div> </div>"
+        "<br><hr><br></div> </div>"
     ).appendTo(".carousel-inner");
     $(
       '<li data-target="#myCarousel1" "data-slide-to=" ' + i + "></li>"

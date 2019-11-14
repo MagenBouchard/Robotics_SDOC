@@ -1,18 +1,24 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  width: 50%;
+  width: 80%;
   margin: auto;
   height: 400px;
+}
+
+.carouselslide {
+ background: black; 
+ width: auto;
 }
 
 
 .carousel-caption {
     font-weight: 30px;
-    font-size: 72px;
+    font-size: auto;
     font-weight: bold;
-    text-align: center;
-    color: 
+    float: left;
+    width: 70%;
+    align-self: center;
 }
 
 body {
@@ -22,6 +28,7 @@ body {
 .container {
   background-color: #BFBFBF;
   margin: auto;
+  font-size: 30px;
   padding: 30px;
 
 }
@@ -38,19 +45,18 @@ footer{
   
 }
 
+.control {
+  width: 10px;
+
+}
+
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
 
 
 
-.carousel-caption {
-    font-weight: 12px;
-    font-size: 12x;
-
-    text-align: center;
-    color: black;
-}
 
 
 }
@@ -81,9 +87,6 @@ footer{
 
 
   
-}
-
-
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) { ... }
