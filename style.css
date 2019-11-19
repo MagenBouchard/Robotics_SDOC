@@ -11,6 +11,10 @@
  width: auto;
 }
 
+.facebook{
+  border-radius: 20px;
+}
+
 
 .carousel-caption {
     font-weight: 30px;
