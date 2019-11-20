@@ -6,6 +6,11 @@ function timeRefresh(timeoutPeriod) {
 
 
 $(document).ready(function() {
+
+  
+  // let refresh = setInterval(timerUpdate, 1000)
+
+
   // Activate Carousel
   $("#myCarousel").carousel();
 
@@ -123,3 +128,42 @@ var schoolList = [
 
   console.log(i);
 });
+
+
+// setInterval(function () {
+//   var d = new Date(); //get current time
+//   var seconds = d.getMinutes() * 60 + d.getSeconds(); //convet current mm:ss to seconds for easier caculation, we don't care hours.
+//   var fiveMin = 60 * 5; //five minutes is 300 seconds!
+//   var timeleft = fiveMin - seconds % fiveMin; // let's say now is 01:30, then current seconds is 60+30 = 90. And 90%300 = 90, finally 300-90 = 210. That's the time left!
+//   var result = "Results updating in..... <hr> Minutes :" + parseInt(timeleft / 60) + '<br> Seconds: ' + timeleft % 60; //formart seconds back into mm:ss 
+//   document.getElementById('timer').innerHTML = result;
+
+// }, 500)
+
+// seconds = 300;
+
+
+
+// // var duration = moment.duration(seconds, 'seconds');
+// // var formatted = duration.format("hh:mm:ss");
+// console.log(formatted); 
+
+// function timerUpdate() {
+
+//   seconds--
+
+//  time = moment(seconds).format('MM:SS');   
+//   console.log(time);
+ 
+//   $("#timer").text(` ${seconds} Seconds`);
+//   console.log("seconds")
+
+//   if (seconds === 1) {
+//       $("#timer").text(`${seconds} Second`)
+//   }
+
+//   if (seconds === 0) {
+//       seconds = 300
+             
+//   }};
+
