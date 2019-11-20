@@ -62,10 +62,10 @@ var schoolList = [
 
   "HRMS.A 014",
   "CLK8.C 013",
-  "DJMS.A 011",
-  "NPMS.A 011",
-  "HRMS.B  010",
-  "CLK8.A  009",
+  "DJMS.A 012",
+  "HRMS.B 012",
+  "CLK8.A  012",
+  "NPMS.A  011",
   "CLK8.B  009",
   "DJMS.B 007",
   "XXXX 000" 
