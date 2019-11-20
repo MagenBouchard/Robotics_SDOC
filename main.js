@@ -46,28 +46,28 @@ var schoolList = [
 
 
   // IQ
-  "NCMS.B 017",
+  "NCMS.B 024",
+  "HRES.A 020",
   "SCES.B 017",
   "NCMS.A 016",
+  "SCES.A 016",
   "HRES.C 015",
-  "SCES.A 013",
   "NPMS.B 011",
-  "HRES.A 010",
+  "HRES.B 011",
   "NCMS.C 009",
-  "HRES.B 006",
 
 
 
   //EDR
 
-  "NPMS.A 008",
-  "DJMS.A 006",
-  "HRMS.A 004",
-  "HRMS.B 004",
-  "CLK8.A  004",
-  "DJMS.B  004",
-  "CLK8.C  003",
-  "CLK8.B 001",
+  "HRMS.A 014",
+  "CLK8.C 013",
+  "DJMS.A 011",
+  "NPMS.A 011",
+  "HRMS.B  010",
+  "CLK8.A  009",
+  "CLK8.B  009",
+  "DJMS.B 007",
   "XXXX 000" 
 
    ];
