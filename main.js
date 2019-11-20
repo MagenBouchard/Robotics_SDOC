@@ -60,10 +60,10 @@ var schoolList = [
 
   //EDR
 
-  "XXXX 000",
-  "XXXX 000",
-  "XXXX 000",
-  "XXXX 000",
+  "NPMS.A 003",
+  "CLK8.C 003",
+  "CLK8.B 001",
+  "DJMS.B 001",
   "XXXX  000",
   "XXXX  000",
   "XXXX  000",
