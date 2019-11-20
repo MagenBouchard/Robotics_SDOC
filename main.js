@@ -47,13 +47,13 @@ var schoolList = [
 
   // IQ
   "NCMS.B 017",
+  "SCES.B 017",
+  "NCMS.A 016",
   "HRES.C 015",
-  "SCES.B 010",
+  "SCES.A 013",
+  "NPMS.B 011",
   "HRES.A 010",
   "NCMS.C 009",
-  "NCMS.A 009",
-  "SCES.A 008",
-  "NPMS.B 006",
   "HRES.B 006",
 
 
